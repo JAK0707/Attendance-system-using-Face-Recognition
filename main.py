@@ -29,9 +29,12 @@ jai_face_encoding = face_recognition.face_encodings(jai_image)[0]
 saif_image = face_recognition.load_image_file("Faces/saif.jpg")
 saif_face_encoding = face_recognition.face_encodings(saif_image)[0]
 
+psrana_image = face_recognition.load_image_file("Faces/psrana.jpg")
+psrana_face_encoding = face_recognition.face_encodings(psrana_image)[0]
+
 # Store all known face encodings and their corresponding names
 known_face_encodings = [dennis_face_encoding, bjarne_face_encoding, guido_face_encoding, james_face_encoding, jai_face_encoding, saif_face_encoding]
-known_face_names = ["Dennis", "Bjarne", "Guido", "James", "Jai", "Saif"]
+known_face_names = ["Dennis", "Bjarne", "Guido", "James", "Jai", "Saif Sir", "PS Rana"]
 
 # List of programmers
 programmers = known_face_names.copy()
