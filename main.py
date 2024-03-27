@@ -34,7 +34,7 @@ psrana_face_encoding = face_recognition.face_encodings(psrana_image)[0]
 
 # Store all known face encodings and their corresponding names
 known_face_encodings = [dennis_face_encoding, bjarne_face_encoding, guido_face_encoding, james_face_encoding, jai_face_encoding, saif_face_encoding]
-known_face_names = ["Dennis", "Bjarne", "Guido", "James", "Jai", "Saif Sir", "PS Rana"]
+known_face_names = ["Dennis", "Bjarne", "Guido", "James", "Jai", "Saif Sir", "PS Rana Sir"]
 
 # List of programmers
 programmers = known_face_names.copy()
