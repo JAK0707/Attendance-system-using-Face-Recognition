@@ -43,7 +43,7 @@ This project is a simple face recognition attendance system implemented in Pytho
 
   <h2>Contributors</h2>
     <ul>
-        <li><a href="https://github.com/JAK0707">Your Name</a></li>
+        <li><a href="https://github.com/JAK0707">Jaiditya Abhineet Kapoor</a></li>
     </ul>
 
    
